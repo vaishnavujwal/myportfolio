@@ -1,5 +1,7 @@
 import "../styles/Home.css";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub } from "react-icons/fa";
+// import ujjuu from '.src/assets/ujjuu.png'; // ✅ correct path
+
 
 const Home = () => {
   return (
@@ -25,7 +27,9 @@ const Home = () => {
 
       <div className="home-image-container">
         <div className="home-image-bg"></div>
-        <img src="/ujjuu.png" alt="Ujjwal Vaishnav" className="home-image" /> {/* ✅ Use public folder path */}
+        <img src={`${import.meta.env.BASE_URL}ujjuu.png`} alt="ujjuu" />
+
+
       </div>
     </section>
   );

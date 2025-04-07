@@ -1,11 +1,13 @@
 import "../styles/About.css";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub } from "react-icons/fa";
+// import logoo from '.src/assets/logoo.jpeg';
 
 const About = () => {
   return (
     <section className="about" id="about">
       <div className="about-image">
-        <img src="/logoo.jpeg" alt="Ujjwal Vaishnav" /> {/* ✅ Use public folder path */}
+      <img src={`${import.meta.env.BASE_URL}logoo.jpeg`} alt="ujjuu" />
+
       </div>
 
       <div className="about-content">    
