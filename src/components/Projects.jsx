@@ -3,6 +3,26 @@ import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
+    name: "ECOMMERCE-WEBSITE",
+    link: " https://vaishnavujwal.github.io/ecommerce-app/",
+  },
+  {
+    name: "BOOK STORE-APP",
+    link: "https://vaishnavujwal.github.io/bookstore-app/",
+  },
+  {
+    name: "DISEASE SEARCH-APP",
+    link: "https://vaishnavujwal.github.io/disease-search-app/",
+  },
+  {
+    name: "MOOD TRACKER-APP",
+    link: "https://vaishnavujwal.github.io/mood-tracker-app/",
+  },
+  {
+    name: "MY-PORTFOLIO",
+    link: "https://vaishnavujwal.github.io/myportfolio/",
+  },
+  {
     name: "QR-GENERATOR",
     link: "https://vaishnavujwal.github.io/qrgenerator/",
   },
@@ -18,38 +38,20 @@ const projects = [
     name: "CALCULATOR",
     link: "https://vaishnavujwal.github.io/calculator-app/",
   },
+
   {
-    name: "DISEASE-SEARCH APP",
-    link: "https://vaishnavujwal.github.io/disease-search-app/",
-  },
-  {
-    name: "BOOK-STORE APP",
+    name: "INSTAGRAM-CLONE",
     link: "https://github.com/yourgithub/task-manager",
   },
   {
-    name: "MOOD TRACKER APP",
+    name: "COMING-SOON",
     link: "https://github.com/yourgithub/task-manager",
   },
   {
-    name: "ECOMMERCE WEBSITE",
+    name: "COMING-SOON",
     link: "https://github.com/yourgithub/task-manager",
   },
-  {
-    name: "MY-PORTFOLIO",
-    link: "https://github.com/yourgithub/task-manager",
-  },
-  {
-    name: "ABSTRACT TEXT SUMMURIZATION",
-    link: "https://github.com/yourgithub/task-manager",
-  },
-  {
-    name: "INSTAGRAM-CLONE COMING SOON",
-    link: "https://github.com/yourgithub/task-manager",
-  },
-  {
-    name: "COMING SOON ",
-    link: "https://github.com/yourgithub/task-manager",
-  },
+ 
   
 ];
 
